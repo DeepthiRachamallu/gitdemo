@@ -14,7 +14,7 @@ public class ReddiffHomePage {
 	}
 	By search=By.id("srchword");
 	By submit=By.name("srchword");
-	
+	syso"github"
 	
 	
 	
