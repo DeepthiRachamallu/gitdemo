@@ -17,6 +17,8 @@ public class Cart_Array {
 		String[] veggiesneed= {"Cucumber","Brocolli","Carrot"};
 		int j=0;
 		Thread.sleep(3000);
+                System.setproperty("github");
+
 		List<WebElement> products=driver.findElements(By.cssSelector("h4.product-name"));
 		for(int i=0;i<products.size();i++) {
 		String[] name=products.get(i).getText().split("-");
