@@ -15,6 +15,7 @@ public class AutoDropDpown {
 		driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
 		driver.findElement(By.id("autosuggest")).sendKeys("ind");
 		Thread.sleep(2000);
+                 System.out.println("git hub");
 		List<WebElement> options = driver.findElements(By.cssSelector("li[class='ui-menu-item'] a"));
 		for (WebElement option : options) {
 			if (option.getText().equalsIgnoreCase("INDIa")) {

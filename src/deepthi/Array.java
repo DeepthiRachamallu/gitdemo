@@ -11,6 +11,7 @@ public class Array {
 		{
 			c[i]=a[i]+b[i];
 			System.out.println(c[i]);
+                        System.out.println("github"); 
 		}
 		
 		int x[][]= {{10,20},{30,40}};
